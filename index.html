@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header class="head center head__multibackground">
+        <h1 class="head__headr">Добро пожаловать <br> на мой сайт мини-игр</h1>
+        <p class="head__text">Тебе предстоит пройти несколько увлекательных игр. <br> Если готов, нажимай <a
+                class="head__lk" href="#">«Поехали!»</a> и приступай.</p>
+        <button class="head__button">Поехали!</button>
+        <div class="head__animation-line">
+            <p class="head__foot">ВИКТОРИНА</p>
+            <img class="head__foot" src="./img/Star.png" alt="">
+            <p class="head__foot">УГАДАЙ ЧИСЛО</p>
+            <img class="head__foot" src="./img/Star.png" alt="">
+            <p class="head__foot">ПЕРЕВЕРНИ ТЕКСТ</p>
+            <img class="head__foot" src="./img/Star.png" alt="">
+            <p class="head__foot">ПРОСТАЯ АРИФМЕТИКА</p>
+        </div>
+    </header>
+    <main class="center">
+        <div class="about-games">
+            <h1 class="about-games__head">Об играх</h1>
+            <p class="about-games__contain">В моей коллекции представлено 6 игр на разные темы. <br> Игры несложные — в
+                них может поиграть каждый. <br> Все игры доступны для пользования.</p>
+            <div class="about-games__cards"> 
+                <a href="#угадайчисло" class="about-games__card">
+                    <img class="about-games__pict" src="./img/Угадай число.jpeg" alt="">
+                    <div class="about-games__low">
+                        <p class="about-games__number">Игра № 1</p>
+                        <Strong class="about-games__guess">Угадай число</Strong>
+                    </div>
+                </a>
+                <a href="#простая арифметика" class="about-games__card big">
+                    <img class="about-games__pict" src="./img/Простая арифметика.jpeg" alt="">
+                    <div class="about-games__low">
+                        <p class="about-games__number">Игра № 2</p>
+                        <Strong class="about-games__guess">Простая <br> арифметика</Strong>
+                    </div>
+                </a>
+                <a href="перевернитекст" class="about-games__card">
+                    <img class="about-games__pict" src="./img/Переверни текст.jpeg" alt="">
+                    <div class="about-games__low">
+                        <p class="about-games__number">Игра № 3</p>
+                        <Strong class="about-games__guess">Переверни текст</Strong>
+                    </div>
+                </a>
+                <a href="#каменьножницыбумага" class="about-games__card big">
+                    <img class="about-games__pict" src="./img/Камень, ножницы, бумага.jpeg" alt="">
+                    <div class="about-games__low">
+                        <p class="about-games__number">Игра № 4</p>
+                        <Strong class="about-games__guess">Камень, <br> ножницы, <br> бумага</Strong>
+                    </div>
+                </a>
+                <a href="#простая викторина" class="about-games__card">
+                    <img class="about-games__pict" src="./img/Простая викторина.jpeg" alt="">
+                    <div class="about-games__low">
+                        <p class="about-games__number">Игра № 5</p>
+                        <Strong class="about-games__guess">Простая <br> викторина</Strong>
+                    </div>
+                </a>
+                <a href="генераторслучайныхчисел" class="about-games__card big">
+                    <img class="about-games__pict" src="./img/Генератор случайных цветов.jpeg" alt="">
+                    <div class="about-games__low">
+                        <p class="about-games__number">Игра № 6</p>
+                        <Strong class="about-games__guess">Генератор <br> случайных <br> цветов</Strong>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
 </body>
+
 </html>

@@ -1,0 +1,145 @@
+*{margin: 0; padding: 0;}
+.center{padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);}
+.head{position: relative;
+    width: 1440px;
+    height: 800px;
+    background: rgb(225, 255, 143);
+    &__headr{
+    margin-left: 120px;
+    padding-top: 196px;
+    color: rgb(32, 32, 39);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;}
+    &__text{width: 720px;
+        height: 64px;
+        margin-left: 120px;
+        margin-top: 24px;
+        color: rgb(32, 32, 39);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;}
+    &__lk{color: rgb(32, 32, 39);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        text-decoration: none;}
+    &__button{margin-top: 48px;
+        margin-left: 120px;
+        width: 247px;
+        height: 66px;
+        padding: 16px 28px 16px 28px;
+        box-sizing: border-box;
+        border: 1px solid rgb(32, 32, 39);
+        border-radius: 60px;
+        background: rgb(32, 32, 39);
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 141.69%;
+        letter-spacing: 0%;
+        text-align: center;}
+    &__button:hover{color: rgb(32, 32, 39);
+        background: rgb(255, 255, 255);}    
+    &__animation-line{height: 90px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 51px;
+        background-color: #BCEC30;
+        margin-top: 156px;
+        overflow: hidden;}
+    &__foot{color: rgb(32, 32, 39);
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: 4%;
+        text-align: left;
+        text-transform: uppercase;
+        white-space: nowrap;
+        animation: moveLeft 3s infinite;}
+    &__multibackground{
+        background-image: url(./img/Star\ 3.svg), url(./img/Star\ 2.svg), 
+        url(./img/Vector\ 4780.svg), url(./img/Vector\ 4781.svg),
+        url(./img/Star\ 5.svg), url(./img/Star\ 4.svg),
+        url(./img/Vector\ 4791.svg), url(./img/Vector\ 4788.svg),
+        url(./img/Vector\ 4782.svg), url(./img/Vector\ \(5\).svg);
+        background-position: 10% 8%, 4% 11%, 59% -1%, 74% 32%,
+        65% 67%, 70% 71%, 93% 95%, 89% 60%, 97% 80%,
+        155% -2200%;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+        no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;}
+    }
+    @keyframes moveLeft {
+        0% {transform: translateX(0);}
+        50% {transform: translateX(-100px);}
+        100% {transform: translateX(0);}}
+.about-games{
+    height: 1470px;
+    background: rgb(32, 32, 39);
+    &__head{
+        padding-left: 119px;
+        padding-top: 94px;
+        color: rgb(255, 255, 255);
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 0px;
+        text-align: left;}
+    &__contain{
+        padding-left: 119px;
+        padding-top: 24px;
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;}
+    &__cards{display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:32px;} 
+    &__card{
+        width: 378px;
+        height: 473px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        border-radius: 30px;
+        box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+        background: rgb(255, 255, 255);
+        text-decoration: none;} 
+    &__pict{border-radius: 30px;}
+    &__low{display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 32px 32px 36px 32px;}
+    &__number{width: 110px;
+        padding: 8px 16px 10px 16px;
+        border-radius: 52.58px;
+        background: rgb(247, 247, 247);
+        color: rgb(32, 32, 39);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 110%;
+        letter-spacing: 0px;
+        text-align: center;
+        vertical-align: middle;}
+    &__guess{color: rgb(32, 32, 39);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: 0px;
+        text-align: left;}                     
+}
+.big{height: 551px;}        
+       
+  
