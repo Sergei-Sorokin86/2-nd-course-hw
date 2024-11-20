@@ -129,8 +129,17 @@
   text-align: left;
 }
 .about-games__cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 72px;
+}
+.about-games__inflex {
+  display: flex;
+  flex-direction: column;
   gap: 32px;
 }
 .about-games__card {
