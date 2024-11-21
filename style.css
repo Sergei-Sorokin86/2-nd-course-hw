@@ -185,6 +185,11 @@
   letter-spacing: 0px;
   text-align: left;
 }
+.about-games__multibackground {
+  background-image: url(./img/Star\ 11.svg), url(./img/Star\ 12.svg), url(./img/Star\ 1.svg);
+  background-position: 2% 53%, 3% 58%, 113% 4%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
 
 .big {
   height: 551px;
