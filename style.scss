@@ -48,11 +48,7 @@
         text-align: center;}
     &__button:hover{color: rgb(32, 32, 39);
         background: rgb(255, 255, 255);}    
-    &__animation-line{height: 90px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 51px;
+    &__animation-line{
         background-color: #BCEC30;
         margin-top: 156px;
         overflow: hidden;}
@@ -63,8 +59,15 @@
         letter-spacing: 4%;
         text-align: left;
         text-transform: uppercase;
-        white-space: nowrap;
-        animation: moveLeft 3s infinite;}
+        white-space: nowrap;}
+    &__animation{
+        height: 90px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 51px;
+        animation: moveLeft 3s infinite;
+    }    
     &__multibackground{
         background-image: url(./img/Star\ 3.svg), url(./img/Star\ 2.svg), 
         url(./img/Vector\ 4780.svg), url(./img/Vector\ 4781.svg),
@@ -82,7 +85,6 @@
         50% {transform: translateX(-100px);}
         100% {transform: translateX(0);}}
 .about-games{
-    height: 1470px;
     background: rgb(32, 32, 39);
     &__head{
         padding-left: 119px;
@@ -104,7 +106,7 @@
         text-align: left;}
     &__cards{display:flex;
         justify-content: space-between;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         gap:32px;
         margin-left: 120px;
         margin-right: 120px;
@@ -156,6 +158,89 @@
         no-repeat;
     }                         
 }
-.big{height: 551px;}        
+.big{height: 551px;}
+.mini-games{
+    background: rgb(32, 32, 39);
+    &__headr{
+        color: rgb(255, 255, 255);
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding-left: 119px;
+        padding-top: 96px;}
+    &__block{display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-left: 120px;
+        margin-top: 72px;
+        padding-bottom: 144px;} 
+    &__card{border-radius: 30px;
+        box-shadow: 0px 20px 67px -12px rgba(0, 0, 0, 0.13);
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-content: space-between;
+        width: 1200px;}
+    &__incard{display: flex;
+    flex-direction: column;
+    padding: 48px;}
+    &__name{
+        color: rgb(32, 32, 39);
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 0px;
+        text-align: left;}
+    &__text{
+        color: rgb(32, 32, 39);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 24px;}
+    &__button{
+        margin-top: 36px;
+        width: 247px;
+        height: 66px;
+        padding: 16px 28px 16px 28px;
+        box-sizing: border-box;
+        border: 1px solid rgb(32, 32, 39);
+        border-radius: 60px;
+        background: rgb(32, 32, 39);
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 141.69%;
+        letter-spacing: 0%;
+        text-align: center;}
+    &__button:hover{color: rgb(32, 32, 39);
+        background: rgb(255, 255, 255);}
+    &__pict{border-radius: 30px;}
+    &__multibackground{
+        background-image: url(./img/Star\ 7.svg), url(./img/Star\ 6.svg),
+        url(./img/Star\ 8.svg), url(./img/Star\ 10.svg);
+        background-position: 91% 4%, 96% 5%,
+        96% 98%, 89% 99%;
+        background-repeat: no-repeat, no-repeat,
+        no-repeat, no-repeat;}                      
+}
+.vise-versa{flex-direction: row-reverse;
+    justify-content: flex-end;} 
+.footer__text{height: 150px;
+    background: rgb(189, 237, 53);
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0px;
+        text-align: center;}          
        
   
