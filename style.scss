@@ -1,5 +1,5 @@
 *{margin: 0; padding: 0;}
-.body{// <uniquifier>: Use a unique and descriptive class name
+body{// <uniquifier>: Use a unique and descriptive class name
     // <weight>: Use a value from 100 to 900   
       font-family: "Montserrat", serif;
       font-optical-sizing: auto;
@@ -19,7 +19,7 @@
     line-height: 78px;
     letter-spacing: 0px;
     text-align: left;}
-    &__text{width: 720px;
+    &__text{width: 580px;
         height: 64px;
         margin-left: 120px;
         margin-top: 24px;
@@ -36,12 +36,11 @@
         letter-spacing: 0px;
         text-align: left;
         text-decoration: none;}
+    &__fat{font-weight: 600;}    
     &__link{margin-top: 48px;
         margin-left: 120px;}    
     &__button{
-        width: 247px;
-        height: 66px;
-        padding: 16px 28px 16px 28px;
+        padding: 16px 65px 16px 65px;
         box-sizing: border-box;
         border: 1px solid rgb(32, 32, 39);
         border-radius: 60px;
@@ -248,6 +247,7 @@
         font-weight: 600;
         line-height: 29px;
         letter-spacing: 0px;
-        text-align: center;}          
+        text-align: center;} 
+@import 'mobile';                
        
   
