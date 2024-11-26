@@ -3,10 +3,8 @@
   padding: 0;
 }
 
-.body {
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+body {
+  font-family: inherit;
 }
 
 /*.center{padding-left: calc(50% - 720px);

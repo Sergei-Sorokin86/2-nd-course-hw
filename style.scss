@@ -1,9 +1,5 @@
 *{margin: 0; padding: 0;}
-.body{// <uniquifier>: Use a unique and descriptive class name
-    // <weight>: Use a value from 100 to 900   
-      font-family: "Montserrat", serif;
-      font-optical-sizing: auto;
-      font-style: normal;
+body{font-family: inherit;
     }
 /*.center{padding-left: calc(50% - 720px);
     padding-right: calc(50% - 720px);}*/
