@@ -321,7 +321,7 @@ body {
     text-align: center;
     width: 262px;
     height: 196px;
-    margin-left: 57px;
+    margin-left: 25px;
     padding-top: 147px;
   }
   .head__text {
@@ -333,7 +333,7 @@ body {
     text-align: center;
     width: 296px;
     height: 60px;
-    margin-left: 40px;
+    margin-left: 10px;
   }
   .head__lk {
     font-size: 16px;
@@ -341,14 +341,19 @@ body {
     line-height: 20px;
   }
   .head__link {
-    margin-left: 46px;
-    margin-top: 36px;
+    margin-left: 13px;
+    margin-top: 72px;
     width: 285px;
     height: 55px;
   }
   .head__button {
     padding: 16px 103px 16px 103px;
     font-size: 16px;
+  }
+  .head__multibackground {
+    background-image: url(./img/Star\ 3.svg), url(./img/Star\ 2.svg), url(./img/Vector\ 4780.svg), url(./img/Vector\ 4781.svg), url(./img/Star\ 5.svg), url(./img/Star\ 4.svg), url(./img/Vector\ 4791.svg), url(./img/Vector\ 4788.svg), url(./img/Vector\ 4782.svg), url(./img/Vector\ \(5\).svg), url(./img/Star\ 2\ \(1\).svg), url(./img/Star\ 3\ \(1\).svg), url(./img/Vector\ \(6\).svg), url(./img/Star\ 5\ \(1\).svg), url(./img/Star\ 4\ \(1\).svg);
+    background-position: -1000% -8000%, -10004% -100011%, -300059% -97771%, -72636374% -7377232%, -88465% -7467667%, -47477470% -37363671%, -37373793% -3837395%, -383889% -383860%, -282897% -383880%, 155% -2200%, 10% 13%, 24% 9%, 145% -20%, 72% 83%, 82% 90%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   }
   .about-games {
     display: none;
@@ -362,14 +367,15 @@ body {
     height: 284.93px;
   }
   .mini-games__headr {
-    padding-left: 16px;
-    margin-top: 48px;
+    padding-left: 0;
+    padding-top: 48px;
     font-size: 40px;
     line-height: 49px;
   }
   .mini-games__block {
-    margin-left: 16px;
+    margin-left: 0;
     margin-top: 48px;
+    padding-bottom: 49px;
   }
   .mini-games__name {
     font-size: 32px;
@@ -389,8 +395,18 @@ body {
     height: 55px;
     margin-top: 32px;
   }
+  .mini-games__multibackground {
+    background-image: url(./img/Star\ 7.svg), url(./img/Star\ 6.svg), url(./img/Star\ 8.svg), url(./img/Star\ 10.svg);
+    background-position: -52626% -75754%, -585896% -58585%, -575796% -585898%, -585889% -585899%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  }
   .middle {
     padding-left: 16px;
     padding-right: 16px;
+  }
+  .footer__text {
+    height: 100px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
