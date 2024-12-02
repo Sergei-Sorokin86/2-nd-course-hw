@@ -51,8 +51,8 @@ const user = {
     age:Number (3),
     isAdmin: Boolean(true)
 };
-console.log(user['isAdmin']);
-console.log(user['name']);
+console.log(user.isAdmin);
+console.log(user.name);
 
 let question = prompt('Как тебя зовут?');
 alert(`Привет, ${question}!`);
