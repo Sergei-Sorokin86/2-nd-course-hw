@@ -306,7 +306,6 @@ body {
 .middle {
   padding-left: calc(50% - 720px);
   padding-right: calc(50% - 720px);
-<<<<<<< HEAD
 }
 
 @media (max-width: 767px) {
@@ -410,6 +409,4 @@ body {
     font-size: 16px;
     line-height: 20px;
   }
-=======
->>>>>>> 61b0d7ba5c7fea2c51fa6baa47bf884342232cb4
 }/*# sourceMappingURL=style.css.map */
