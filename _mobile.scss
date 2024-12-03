@@ -2,6 +2,10 @@
     .head{height: 700px;
         &__headr{
             color: rgb(32, 32, 39);
+<<<<<<< HEAD
+=======
+            font-family: Montserrat;
+>>>>>>> 61b0d7ba5c7fea2c51fa6baa47bf884342232cb4
             font-size: 40px;
             font-weight: 700;
             line-height: 49px;
@@ -9,9 +13,16 @@
             text-align: center;
             width: 262px;
             height: 196px;
+<<<<<<< HEAD
             margin-left: 25px;
             padding-top: 147px;}
         &__text{color: rgb(32, 32, 39);
+=======
+            margin-left: 57px;
+            padding-top: 147px;}
+        &__text{color: rgb(32, 32, 39);
+            font-family: Montserrat;
+>>>>>>> 61b0d7ba5c7fea2c51fa6baa47bf884342232cb4
             font-size: 16px;
             font-weight: 400;
             line-height: 20px;
@@ -19,6 +30,7 @@
             text-align: center;
             width: 296px;
             height: 60px;
+<<<<<<< HEAD
             margin-left: 10px;}
         &__lk{
             font-size: 16px;
@@ -26,10 +38,20 @@
             line-height: 20px;}
         &__link{margin-left: 13px;
            margin-top: 72px;
+=======
+            margin-left: 40px;}
+        &__lk{font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;}
+        &__link{margin-left: 46px;
+           margin-top: 36px;
+>>>>>>> 61b0d7ba5c7fea2c51fa6baa47bf884342232cb4
            width: 285px;
            height: 55px;}
         &__button{
             padding: 16px 103px 16px 103px;
+<<<<<<< HEAD
             font-size: 16px;} 
             &__multibackground{
                 background-image: url(./img/Star\ 3.svg), url(./img/Star\ 2.svg), 
@@ -46,6 +68,10 @@
                 background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
                 no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
                 no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;}               
+=======
+            font-family: Montserrat;
+            font-size: 16px;}            
+>>>>>>> 61b0d7ba5c7fea2c51fa6baa47bf884342232cb4
     }
     .about-games{display:none;}
     .mini-games{
@@ -53,6 +79,7 @@
         width: 343px;}
         &__pict{ width: 343px;
             height: 284.93px;}
+<<<<<<< HEAD
         &__headr{padding-left: 0;
             padding-top: 48px;
             font-size: 40px;
@@ -61,6 +88,15 @@
             margin-left: 0;
             margin-top: 48px;
             padding-bottom: 49px;}
+=======
+        &__headr{padding-left: 16px;
+            margin-top: 48px;
+            font-size: 40px;
+            line-height: 49px;}
+        &__block{
+            margin-left: 16px;
+            margin-top: 48px;}
+>>>>>>> 61b0d7ba5c7fea2c51fa6baa47bf884342232cb4
         &__name{font-size: 32px;
             line-height: 39px;}
         &__text{font-size: 16px;
@@ -72,6 +108,7 @@
         &__button{font-size: 16px;
             width: 285px;
             height: 55px;
+<<<<<<< HEAD
             margin-top: 32px;}
         &__multibackground{
             background-image: url(./img/Star\ 7.svg), url(./img/Star\ 6.svg),
@@ -89,5 +126,9 @@ padding-right: 16px;}
         line-height: 20px;}
 }
        
+=======
+            margin-top: 32px;}                
+    }
+>>>>>>> 61b0d7ba5c7fea2c51fa6baa47bf884342232cb4
     
 }
