@@ -62,14 +62,14 @@ let requestPassword = prompt('Введите пароль');
 alert(password === requestPassword?'Пароль введен верно':'Пароль введен неверно');
 
 let c = prompt('Введите число');
-if (c>0 && c<10) {
+if (+c>0 && +c<10) {
     alert('верно');}
  else {
     alert('неверно');}
 
 let d = prompt('Введите d')
 let e = prompt('Введите e') 
-if (d>100 || e>100) {
+if (+d>100 || +e>100) {
     alert('Верно')
 } else {
    alert('Не верно') 
