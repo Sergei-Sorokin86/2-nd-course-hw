@@ -57,7 +57,7 @@ console.log(user.name);
 let question = prompt('Как тебя зовут?');
 alert(`Привет, ${question}!`);*/
 
-let password = 'пароль';
+/*let password = 'пароль';
 let requestPassword = prompt('Введите пароль');
 alert(password === requestPassword?'Пароль введен верно':'Пароль введен неверно');
 
@@ -142,6 +142,37 @@ if (clientOS === true && clientDeviceYear <= 2015) {
     alert('Установите облегченную версию приложения для Android по ссылке')}
 else if (clientOS === false && clientDeviceYear > 2015){
     alert('Установите версию приложения для Android по ссылке')
-}    
+}*/
+
+//домашняя работа hw4
+/*let i = 0;
+while (i<2) {
+    i++;
+    console.log('Привет.')
+}
+
+let j =1;
+do {console.log(j);
+j++;    
+} while (j<6);
+
+let r =0;
+while (r<23) {
+    r++;
+    if (r<=6) {
+    continue;}
+    if (r === 23) {
+    break;}
+    console.log(+r);    
+}*/
+
+const obj = {
+    Коля : '200',
+    Вася : '300',
+    Петя : '400'}
+for (let key in obj) {
+    console.log(`${key} - зарплата ${obj[key]} долларов.`)
+    }
+  
 
     
