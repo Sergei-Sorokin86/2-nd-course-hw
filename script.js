@@ -145,7 +145,7 @@ else if (clientOS === false && clientDeviceYear > 2015){
 }*/
 
 //домашняя работа hw4
-/*let i = 0;
+let i = 0;
 while (i<2) {
     i++;
     console.log('Привет.')
@@ -164,7 +164,7 @@ while (r<23) {
     if (r === 23) {
     break;}
     console.log(+r);    
-}*/
+}
 
 const obj = {
     Коля : '200',
@@ -173,6 +173,32 @@ const obj = {
 for (let key in obj) {
     console.log(`${key} - зарплата ${obj[key]} долларов.`)
     }
+    
+let num = 0;    
+for (let n = 1000; n > 50;  n /=2) {
+    console.log(n)
+    num++;
+    console.log(num) 
+    }
+
+for(let firstfri = 2; firstfri<=31; firstfri +=7){
+    console.log(`Сегодня пятница ${firstfri}-е, пора готовить отчет.`)
+}
+
+// Дополнительные задания
+
+let iterations = 0;    
+for (let k = 100; k > 0;  k -=7) {
+    console.log(k)
+    iterations++;
+    console.log(iterations)}
+
+/*let months = ["January", "February", "March",
+"April", "May", "June", "July", "August", 
+"September", "October", "November", "December"];
+for(let months[i]=1; months[i]<=12; months[i]++){
+    console.log(months[i])
+} */   
   
 
     
