@@ -57,19 +57,19 @@ console.log(user.name);
 let question = prompt('Как тебя зовут?');
 alert(`Привет, ${question}!`);*/
 
-let password = 'пароль';
+/*let password = 'пароль';
 let requestPassword = prompt('Введите пароль');
 alert(password === requestPassword?'Пароль введен верно':'Пароль введен неверно');
 
 let c = prompt('Введите число');
-if (c>0 && c<10) {
+if (+c>0 && +c<10) {
     alert('верно');}
  else {
     alert('неверно');}
 
 let d = prompt('Введите d')
 let e = prompt('Введите e') 
-if (d>100 || e>100) {
+if (+d>100 || +e>100) {
     alert('Верно')
 } else {
    alert('Не верно') 
@@ -142,6 +142,88 @@ if (clientOS === true && clientDeviceYear <= 2015) {
     alert('Установите облегченную версию приложения для Android по ссылке')}
 else if (clientOS === false && clientDeviceYear > 2015){
     alert('Установите версию приложения для Android по ссылке')
-}    
+}*/
+
+//домашняя работа hw4
+/*let i = 0;
+while (i<2) {
+    i++;
+    console.log('Привет.');}*/
+for (let i=0; i<2; i++) {
+    console.log('Привет.');}    
+
+/*let j =1;
+do {console.log(j);
+j++;    
+} while (j<6);*/
+for (let j=0; j<6; j++) {
+    if(j>=1){console.log(j)}}
+
+
+/*let r =0;
+while (r<23) {
+    r++;
+    if (r<=6) {
+    continue;}
+    if (r === 23) {
+    break;}
+    console.log(+r);}*/
+for (let r=0; r<=22; r++) {
+    if(r<7){continue};
+    if(r<=22){console.log(r)}}
+
+const obj = {
+    Коля : '200',
+    Вася : '300',
+    Петя : '400'}
+for (let key in obj) {
+    console.log(`${key} - зарплата ${obj[key]} долларов.`)
+    }
+    
+let num = 0;    
+/*for (let n = 1000; n > 50;  n /=2) {
+    console.log(n)
+    num++;
+    console.log(num)}*/
+let n =1000;    
+do {n /=2;
+    if (n<50) {
+        break;}
+    console.log(n);
+    num++;
+    console.log(num);}
+ while (n>50)
+
+
+/*for(let firstfri = 2; firstfri<=31; firstfri +=7){
+    console.log(`Сегодня пятница ${firstfri}-е, пора готовить отчет.`)
+}*/
+let firstfri = 2;
+/*while (firstfri<=31) {
+    console.log(`Сегодня пятница ${firstfri}-е, пора готовить отчет.`);
+    firstfri +=7;
+    if (firstfri>31) {
+       break;}}*/
+do {console.log(`Сегодня пятница ${firstfri}-е, пора готовить отчет.`);
+    firstfri +=7;
+    if (firstfri>31) {
+       break;}}
+ while (firstfri<=31);       
+
+// Дополнительные задания
+
+/*let iterations = 0;    
+for (let k = 100; k > 0;  k -=7) {
+    console.log(k)
+    iterations++;
+    console.log(iterations)}
+
+let months = ["January", "February", "March",
+"April", "May", "June", "July", "August", 
+"September", "October", "November", "December"];
+for(let months[i]=1; months[i]<=12; months[i]++){
+    console.log(months[i])
+} */   
+  
 
     
