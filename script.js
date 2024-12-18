@@ -148,26 +148,26 @@ else if (clientOS === false && clientDeviceYear > 2015){
 /*let i = 0;
 while (i<2) {
     i++;
-    console.log('Привет.');}*/
+    console.log('Привет.');}
 for (let i=0; i<2; i++) {
     console.log('Привет.');}    
 
-/*let j =1;
+let j =1;
 do {console.log(j);
 j++;    
-} while (j<6);*/
+} while (j<6);
 for (let j=0; j<6; j++) {
     if(j>=1){console.log(j)}}
 
 
-/*let r =0;
+let r =0;
 while (r<23) {
     r++;
     if (r<=6) {
     continue;}
     if (r === 23) {
     break;}
-    console.log(+r);}*/
+    console.log(+r);}
 for (let r=0; r<=22; r++) {
     if(r<7){continue};
     if(r<=22){console.log(r)}}
@@ -181,10 +181,10 @@ for (let key in obj) {
     }
     
 let num = 0;    
-/*for (let n = 1000; n > 50;  n /=2) {
+for (let n = 1000; n > 50;  n /=2) {
     console.log(n)
     num++;
-    console.log(num)}*/
+    console.log(num)}
 let n =1000;    
 do {n /=2;
     if (n<50) {
@@ -195,15 +195,15 @@ do {n /=2;
  while (n>50)
 
 
-/*for(let firstfri = 2; firstfri<=31; firstfri +=7){
+for(let firstfri = 2; firstfri<=31; firstfri +=7){
     console.log(`Сегодня пятница ${firstfri}-е, пора готовить отчет.`)
-}*/
+}
 let firstfri = 2;
-/*while (firstfri<=31) {
+while (firstfri<=31) {
     console.log(`Сегодня пятница ${firstfri}-е, пора готовить отчет.`);
     firstfri +=7;
     if (firstfri>31) {
-       break;}}*/
+       break;}}
 do {console.log(`Сегодня пятница ${firstfri}-е, пора готовить отчет.`);
     firstfri +=7;
     if (firstfri>31) {
@@ -223,7 +223,16 @@ let months = ["January", "February", "March",
 "September", "October", "November", "December"];
 for(let months[i]=1; months[i]<=12; months[i]++){
     console.log(months[i])
-} */   
-  
+} */
+
+function guessNumerous() {
+    let hiddenNumber = Number(prompt("Угадайте число от 1 до 100"))
+    const generatedNunber = Math.floor(Math.random() * 100) + 1;
+    do  {
+     if (hiddenNumber<generatedNunber); {
+       alert("Загаданное число больше"); 
+    } else (hiddenNumber>generatedNunber); {  
+        alert("Загаданное число меньше");}
+    } while (hiddenNumber===generatedNunber);}
 
     
