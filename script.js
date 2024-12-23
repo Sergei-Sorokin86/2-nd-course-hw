@@ -225,14 +225,98 @@ for(let months[i]=1; months[i]<=12; months[i]++){
     console.log(months[i])
 } */
 
-function guessNumerous() {
-    let hiddenNumber = Number(prompt("Угадайте число от 1 до 100"))
-    const generatedNunber = Math.floor(Math.random() * 100) + 1;
-    do  {
-     if (hiddenNumber<generatedNunber); {
-       alert("Загаданное число больше"); 
-    } else (hiddenNumber>generatedNunber); {  
-        alert("Загаданное число меньше");}
-    } while (hiddenNumber===generatedNunber);}
+//hw5    
 
-    
+function guessNumerous() {
+    const generatedNunber = Math.floor(Math.random() * 100) + 1;
+    let hiddenNumber;  
+    do  {hiddenNumber=Number(prompt("Угалайте число от 1 до 100")) ;      
+    if (hiddenNumber<generatedNunber) {
+       alert("Загаданное число больше"); 
+    } else if (hiddenNumber>generatedNunber) {  
+        alert("Загаданное число меньше");} 
+    if(isNaN(hiddenNumber)) {
+        alert(`Введите число`);
+        continue;}      
+    } while (hiddenNumber!==generatedNunber);
+        alert(`Поздравляю, Вы угадали. ваше число ${generatedNunber}`);}    
+
+function min(a,b){
+    if (a<b){
+        return a;
+    }
+    else {
+        return b;
+    }
+}
+console.log(min(8,4));
+console.log(min(6,6));
+
+let even = (c) => (c%2==0 ? 'Число четное':'Число нечетное');
+console.log(even(4));
+console.log(even(3));
+
+function squared(e) {
+    console.log(e**2);}
+squared(5);    
+let squared1 = (d) => d**2;
+console.log(squared1(3));
+
+
+function age(){
+    let howold = Number(prompt('Сколько вам лет'));
+    if(howold<0){
+        alert ('Вы ввели неправильное значение');
+    }
+    else if(howold===0 || howold<=12){
+        alert ('Привет, друг!');
+    }
+    else if(howold>=13){
+        alert ('Добро пожаловать!');
+    }
+}
+age();
+
+
+function evennum (){
+    let g = Number(prompt(`Введите число g`));
+    let f = Number(prompt(`Введите число f`))    
+    if(isNaN(g) || isNaN(f)){
+        alert (`Одно или оба значения не являются числом`);
+    } else {return g*f;}
+}
+console.log(evennum());
+
+function cubednum() {
+    let n = Number(prompt(`Введите число n`));
+    if(isNaN(n)){
+        alert (`Переданный параметр не является числом`)
+    } else{
+        return `n в кубе равняется ${n**3}`;
+    }
+} console.log(cubednum());
+
+
+
+const circle1 = {
+    radius: 4,
+    getArea() {
+        console.log(`${(this.radius**2)*Math.PI}`)
+    },
+    getPerimeter() {
+        console.log(`${this.radius*(2*Math.PI)}`)
+    }
+}
+const circle2 = {
+    radius: 5,
+    getArea() {
+        console.log(`${(this.radius**2)*Math.PI}`)
+    },
+    getPerimeter() {
+        console.log(`${this.radius*(2*Math.PI)}`)
+    }
+}
+circle1.getArea();
+circle1.getPerimeter();
+circle2.getArea();
+circle2.getPerimeter();
