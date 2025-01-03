@@ -31,9 +31,9 @@ function quiz() {
         {alert('Ответ верный')
             counter++;
         } 
-        else{alert('Неверно')}
-        alert(`Количество правильных ответов ${counter}`)
+        else{alert('Неверно')}    
     }
+    alert(`Количество правильных ответов ${counter}`)
 }
 
 
