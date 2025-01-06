@@ -1,38 +1,4 @@
-function simpleMath() {
-    let a = Math.floor(Math.random() * 100) + 1;
-    let b = Math.floor(Math.random() * 100) + 1;
-    console.log(a,b)
-    const operations = ["+", "-", "*", "/"];
-    let rundomOperations =Math.floor(Math.random()*operations.length);
-    console.log(rundomOperations)
-    let typeofact = operations[rundomOperations];
-    let message = a>b ? `${a} ${typeofact} ${b}`:`${b} ${typeofact} ${a}`   
-    function solution(num1, num2, operator) {
-        switch (operator) {
-            case '+':
-                return a+b;
-            case '-':
-                return a>b ? a-b : b-a;
-            case '*':
-                return a*b; 
-            case '/':
-                return Math.ceil(a/b);            
-        
-            default:
-                return null;
-        }}
-    const result = solution(a, b, typeofact)
-    while (true) {
-        let userAnswer = (prompt(`Решите задачу: ${message}`))
-        if (userAnswer === null) {
-            alert(`Игра остановлена`)
-            break;    
-        } if(+userAnswer === result) {
-            alert(`Угадал`)
-            break;
-        } else {alert(`Неверно, попробуйте еще раз`)}
-    }
-    }
+
 
 let sequence = [1, 5, 4, 10, 0, 3]
 for (let i = 0; i < sequence.length; i++) {

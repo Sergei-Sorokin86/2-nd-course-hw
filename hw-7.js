@@ -1,40 +1,4 @@
-function turnoverText() {
-    let request = prompt('Введите текст')
-    let result = request.split('').reverse().join('')
-    alert(`${result}`)
-}
 
-function quiz() {
-    const quiz = [
-        {
-            question: "Какой цвет небо?",
-            options: ["1. Красный", "2. Синий", "3. Зеленый"],
-            correctAnswer: 2 // номер правильного ответа
-        },
-        {
-            question: "Сколько дней в неделе?",
-            options: ["1. Шесть", "2. Семь", "3. Восемь"],
-            correctAnswer: 2
-        },
-        {
-            question: "Сколько у человека пальцев на одной руке?",
-            options: ["1. Четыре", "2. Пять", "3. Шесть"],
-            correctAnswer: 2
-        }
-    ];
-    let counter = 0;
-    for (let i = 0; i < quiz.length; i++) {
-        alert(`${quiz[i].question}`)
-        let userAnswer = Number(prompt(`Введите номер правильного ответа ${quiz[i].options}`))
-        let rightAnswer = quiz[i].correctAnswer
-        if(userAnswer === rightAnswer)
-        {alert('Ответ верный')
-            counter++;
-        } 
-        else{alert('Неверно')}    
-    }
-    alert(`Количество правильных ответов ${counter}`)
-}
 
 
 

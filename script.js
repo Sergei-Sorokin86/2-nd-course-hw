@@ -225,21 +225,7 @@ for(let months[i]=1; months[i]<=12; months[i]++){
     console.log(months[i])
 } */
 
-//hw5    
-
-function guessNumerous() {
-    const generatedNunber = Math.floor(Math.random() * 100) + 1;
-    let hiddenNumber;  
-    do  {hiddenNumber=Number(prompt("Угалайте число от 1 до 100")) ;      
-    if (hiddenNumber<generatedNunber) {
-       alert("Загаданное число больше"); 
-    } else if (hiddenNumber>generatedNunber) {  
-        alert("Загаданное число меньше");} 
-    if(isNaN(hiddenNumber)) {
-        alert(`Введите число`);
-        continue;}      
-    } while (hiddenNumber!==generatedNunber);
-        alert(`Поздравляю, Вы угадали. ваше число ${generatedNunber}`);}    
+//hw5       
 
 function min(a,b){
     if (a<b){
