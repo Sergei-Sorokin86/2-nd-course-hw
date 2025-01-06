@@ -42,7 +42,7 @@ h5.forEach(description1 => {
 });
 
 
-const bt6 = document.querySelector('.buttonEltask6');
+const bt6 = document.querySelector('.buttonElTask6');
 console.log(bt6);
 const newP = document.createElement('p');
 newP.textContent = 'Новый абзац';
@@ -51,7 +51,7 @@ bt6.addEventListener('click', () => {
     document.body.appendChild(newP);});
 
 const p7 = document.querySelector('.description7');
-const b7 = document.querySelector('.buttonEltask7');
+const b7 = document.querySelector('.buttonElTask7');
 console.log(p7, b7);
 b7.addEventListener('click', () => {
     p7.remove()});
