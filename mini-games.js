@@ -109,4 +109,11 @@ function ssp() {
         alert (`Введите ответ из выбранного списка`) 
     }
 }
+
+const randomColor = document.getElementById('randomColorGenerator');
+const background = document.querySelector('.mini-games');
+randomColor.addEventListener('click', function() {
+    let color = '#' + Math.floor(Math.random()*16777215).toString(16);
+    background.style.background = color;
+});
     

@@ -52,10 +52,6 @@ body{ font-family: "Montserrat", serif;
         text-decoration: none;}
     &__button:hover{color: rgb(32, 32, 39);
         background: rgb(255, 255, 255);}    
-    &__animation-line{
-        background-color: #BCEC30;
-        margin-top: 156px;
-        overflow: hidden;}
     &__foot{color: rgb(32, 32, 39);
         font-size: 30px;
         font-weight: 700;
@@ -64,13 +60,20 @@ body{ font-family: "Montserrat", serif;
         text-align: left;
         text-transform: uppercase;
         white-space: nowrap;}
-    &__animation{
+    &__anline{
+        background-color: #BCEC30;
+        max-width: 100%;
+        overflow: hidden;
+        height: 90px;
+    }    
+    &__animation{    
+        /*margin-top: 156px;*/
         height: 90px;
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 51px;
-        /*animation: moveLeft 3s infinite;*/
+        animation: moveLeft 100s infinite;
     }    
     &__multibackground{
         background-image: url(./img/Star\ 3.svg), url(./img/Star\ 2.svg), 
@@ -85,9 +88,9 @@ body{ font-family: "Montserrat", serif;
         no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;}
     }
     @keyframes moveLeft {
-        0% {transform: translateX(0);}
-        50% {transform: translateX(-100px);}
-        100% {transform: translateX(0);}}
+        0% {transform: translateX(-100%);}
+        50% {transform: translateX(0%);}
+        100% {transform: translateX(-100%);}}
 .about-games{
     background: rgb(32, 32, 39);
     &__head{
