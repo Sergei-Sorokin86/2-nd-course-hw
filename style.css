@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
@@ -93,7 +97,7 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 51px;
-  animation: moveLeft 100s infinite;
+  animation: moveLeft 30s infinite;
 }
 .head__multibackground {
   background-image: url(./img/Star\ 3.svg), url(./img/Star\ 2.svg), url(./img/Vector\ 4780.svg), url(./img/Vector\ 4781.svg), url(./img/Star\ 5.svg), url(./img/Star\ 4.svg), url(./img/Vector\ 4791.svg), url(./img/Vector\ 4788.svg), url(./img/Vector\ 4782.svg), url(./img/Vector\ \(5\).svg);
@@ -162,6 +166,7 @@ body {
 }
 .about-games__card:hover {
   transform: scale(1.1);
+  transition-duration: 3s;
 }
 .about-games__pict {
   border-radius: 30px;
@@ -204,6 +209,10 @@ body {
 
 .big {
   height: 551px;
+}
+
+.big1 {
+  height: 512px;
 }
 
 .mini-games {
@@ -359,6 +368,20 @@ body {
     background-position: -1000% -8000%, -10004% -100011%, -300059% -97771%, -72636374% -7377232%, -88465% -7467667%, -47477470% -37363671%, -37373793% -3837395%, -383889% -383860%, -282897% -383880%, 155% -2200%, 10% 13%, 24% 9%, 168% -20%, 72% 90%, 82% 95%;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   }
+  .head__animation {
+    animation: moveLeft 20s infinite;
+  }
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
   .about-games {
     display: none;
   }
@@ -407,6 +430,9 @@ body {
   .middle {
     padding-left: 16px;
     padding-right: 16px;
+  }
+  .footer {
+    width: 100%;
   }
   .footer__text {
     height: 100px;

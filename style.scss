@@ -1,4 +1,5 @@
 *{margin: 0; padding: 0;}
+html {scroll-behavior: smooth;}
 body{ font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -73,19 +74,13 @@ body{ font-family: "Montserrat", serif;
         flex-direction: row;
         align-items: center;
         gap: 51px;
-        animation: moveLeft 100s infinite;
+        animation: moveLeft 30s infinite;
     }    
     &__multibackground{
         background-image: url(./img/Star\ 3.svg), url(./img/Star\ 2.svg), 
-        url(./img/Vector\ 4780.svg), url(./img/Vector\ 4781.svg),
-        url(./img/Star\ 5.svg), url(./img/Star\ 4.svg),
-        url(./img/Vector\ 4791.svg), url(./img/Vector\ 4788.svg),
-        url(./img/Vector\ 4782.svg), url(./img/Vector\ \(5\).svg);
-        background-position: 10% 8%, 4% 11%, 59% -1%, 74% 32%,
-        65% 67%, 70% 71%, 93% 95%, 89% 60%, 97% 80%,
-        150% 300%;
-        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
-        no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;}
+        url(./img/Vector\ 4780.svg), url(./img/Vector\ 4781.svg);
+        background-position: 10% 8%, 4% 11%, 59% -1%, 74% 32%;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;}
     }
     @keyframes moveLeft {
         0% {transform: translateX(-100%);}
@@ -131,7 +126,8 @@ body{ font-family: "Montserrat", serif;
         box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
         background: rgb(255, 255, 255);
         text-decoration: none;}
-    &__card:hover{transform: scale(1.1);}    
+    &__card:hover{transform: scale(1.1);
+        transition-duration: 3s;}    
     &__pict{border-radius: 30px;}
     &__low{display: flex;
         flex-direction: column;
@@ -168,6 +164,7 @@ body{ font-family: "Montserrat", serif;
     }                         
 }
 .big{height: 551px;}
+.big1{height: 512px;}
 .mini-games{
     background: rgb(32, 32, 39);
     &__headr{
