@@ -77,10 +77,11 @@ body{ font-family: "Montserrat", serif;
         animation: moveLeft 30s infinite;
     }    
     &__multibackground{
-        background-image: url(./img/Star\ 3.svg), url(./img/Star\ 2.svg), 
-        url(./img/Vector\ 4780.svg), url(./img/Vector\ 4781.svg);
-        background-position: 10% 8%, 4% 11%, 59% -1%, 74% 32%;
-        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;}
+        background-image: url(./img/Star\ 3.svg), url(./img/Star\ 2.svg),  
+        url(./img/Group\ 1597880565.svg), url(./img/Star\ 5.svg),
+        url(./img/Star\ 4.svg);
+        background-position: 10% 8%, 4% 11%, 210% 80%, 70% 75%, 75% 85%;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;}
     }
     @keyframes moveLeft {
         0% {transform: translateX(-100%);}

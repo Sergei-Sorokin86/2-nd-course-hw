@@ -45,11 +45,14 @@
            background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
            no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
            no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;}
-        &__animation{animation: moveLeft 100s infinite;                     
+        &__animation{animation: moveLeft 60s infinite;                     
     }}
     @keyframes moveLeft {
-        from{transform: translateX(0%);}
-        to{transform: translateX(-100%);}}
+        /*from{transform: translateX(0%);}
+        to{transform: translateX(-700%);}*/
+        0% {transform: translateX(-700%);}
+        50% {transform: translateX(0%);}
+        100% {transform: translateX(-700%);}}
     .about-games{
         display:none;}
     .mini-games{

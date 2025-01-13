@@ -100,9 +100,9 @@ body {
   animation: moveLeft 30s infinite;
 }
 .head__multibackground {
-  background-image: url(./img/Star\ 3.svg), url(./img/Star\ 2.svg), url(./img/Vector\ 4780.svg), url(./img/Vector\ 4781.svg), url(./img/Star\ 5.svg), url(./img/Star\ 4.svg), url(./img/Vector\ 4791.svg), url(./img/Vector\ 4788.svg), url(./img/Vector\ 4782.svg), url(./img/Vector\ \(5\).svg);
-  background-position: 10% 8%, 4% 11%, 59% -1%, 74% 32%, 65% 67%, 70% 71%, 93% 95%, 89% 60%, 97% 80%, 150% 300%;
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-image: url(./img/Star\ 3.svg), url(./img/Star\ 2.svg), url(./img/Group\ 1597880565.svg), url(./img/Star\ 5.svg), url(./img/Star\ 4.svg);
+  background-position: 10% 8%, 4% 11%, 210% 80%, 70% 75%, 75% 85%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
 }
 
 @keyframes moveLeft {
@@ -369,17 +369,19 @@ body {
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   }
   .head__animation {
-    animation: moveLeft 20s infinite;
+    animation: moveLeft 60s infinite;
   }
   @keyframes moveLeft {
+    /*from{transform: translateX(0%);}
+    to{transform: translateX(-700%);}*/
     0% {
-      transform: translateX(-100%);
+      transform: translateX(-700%);
     }
     50% {
       transform: translateX(0%);
     }
     100% {
-      transform: translateX(-100%);
+      transform: translateX(-700%);
     }
   }
   .about-games {
@@ -421,6 +423,10 @@ body {
     width: 285px;
     height: 55px;
     margin-top: 32px;
+  }
+  .mini-games__button:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(32, 32, 39);
   }
   .mini-games__multibackground {
     background-image: url(./img/Star\ 7.svg), url(./img/Star\ 6.svg), url(./img/Star\ 8.svg), url(./img/Star\ 10.svg);
